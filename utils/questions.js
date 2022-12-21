@@ -56,13 +56,7 @@ const questions = () => {
       name: 'credits',
       message: 'Did anyone help you? If so, list their names and Github usernames:',
       default: 'N/A',
-    },
-    {
-      type: 'input',
-      name: 'tests',
-      message: 'Did anyone help you? If so, list their names and Github profiles:',
-      default: 'N/A',
-    },
+    },    
     {
       type: 'list',
       message: 'Which license would you like to use?',
