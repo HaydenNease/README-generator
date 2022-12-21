@@ -12,8 +12,10 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  data.items.forEach(item => item ? true : item = "N/A");
   return `# ${data.title}
+  Application is live at 
+  ## Description
+  ${data.description}
 
 `;
 }
